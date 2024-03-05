@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # LOAD DATA
-data = pd.read_csv("https://raw.githubusercontent.com/rahelsmnjtk/Capstone-Analitika-Data-Dicoding/main/hour.csv")
+data = pd.read_csv("https://github.com/rahelsmnjtk/Capstone-Andat-Dicoding/blob/main/Dashboard/hour.csv")
 
 # Set page title
 st.title("Bike Share Dashboard")
@@ -17,7 +17,7 @@ with st.sidebar:
     st.sidebar.markdown("**Email: [rahelsmnjtk18@gmail.com](rahelsmnjtk18@gmail.com)**")
     st.sidebar.markdown("**id Dicoding : rahelsmnjtk**")
 # Show dataset source
-st.sidebar.markdown("[Download Dataset](https://raw.githubusercontent.com/rahelsmnjtk/Capstone-Analitika-Data-Dicoding/main/hour.csv)")
+st.sidebar.markdown("[Download Dataset](https://github.com/rahelsmnjtk/Capstone-Andat-Dicoding/blob/main/Dashboard/hour.csv)")
 
 # Fix the data type
 # df_day
